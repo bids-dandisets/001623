@@ -3,6 +3,7 @@
 # and obtained from the dandiarchive.
 '@context': 
   https://raw.githubusercontent.com/dandi/schema/master/releases/0.6.10/context.json
+about: []
 access:
 - schemaKey: AccessRequirements
   status: dandi:OpenAccess
@@ -13,17 +14,17 @@ assetsSummary:
     name: Neurodata Without Borders (NWB)
     schemaKey: StandardsType
   measurementTechnique: []
-  numberOfBytes: 761205983892
-  numberOfFiles: 94
-  numberOfSubjects: 94
+  numberOfBytes: 774224141637
+  numberOfFiles: 95
+  numberOfSubjects: 95
   schemaKey: AssetsSummary
   species:
   - identifier: http://purl.obolibrary.org/obo/NCBITaxon_6239
     name: Caenorhabditis elegans
     schemaKey: SpeciesType
   variableMeasured: []
-citation: Dunn, Raymond (2025) Data for 2025-Dunn-et-al-curr-biol (Version draft)
-  [Data set]. DANDI Archive. https://dandiarchive.org/dandiset/001623/draft
+citation: Dunn, Raymond (2025) C. elegans whole-brain imaging datasets (NeuroPAL and
+  timeseries) (Version draft) [Data set]. DANDI Archive. https://dandiarchive.org/dandiset/001623/draft
 contributor:
 - affiliation: []
   email: ray.l.dunn@gmail.com
@@ -33,16 +34,54 @@ contributor:
   - dcite:ContactPerson
   schemaKey: Person
 dateCreated: '2025-10-09T23:56:29.447827+00:00'
-description: Data accompanying publication
+datePublished: '2025-10-15T03:12:13.437115+00:00'
+description: Data accompanying publication 2025 Dunn et al curr biol
+ethicsApproval: []
 id: DANDI:001623/draft
 identifier: DANDI:001623
+keywords:
+- short-term memory
+- decision-making
+- whole-brain imaging
+- C. elegans
+- neural dynamics
+- optogenetics
+- cognition
+- closed loop
+- neural manifold
+- brain oscillations
 license:
 - spdx:CC-BY-4.0
 manifestLocation:
 - https://api.dandiarchive.org/api/dandisets/001623/versions/draft/assets/
-name: Data for 2025-Dunn-et-al-curr-biol
+name: C. elegans whole-brain imaging datasets (NeuroPAL and timeseries)
+publishedBy:
+  endDate: '2025-10-15T03:12:13.437115+00:00'
+  id: urn:uuid:45aa337d-5c38-4fc4-af9f-b142488d83b6
+  name: DANDI publish
+  schemaKey: PublishActivity
+  startDate: '2025-10-15T03:12:13.437115+00:00'
+  wasAssociatedWith:
+  - id: urn:uuid:f1a87ac6-3dfc-448a-85e3-c774203641f1
+    identifier: RRID:SCR_017571
+    name: DANDI API
+    schemaKey: Software
+    version: 0.1.0
+relatedResource:
+- identifier: Publication
+  name: Short-term memory by distributed neural network oscillators in a simple nervous
+    system
+  relation: dcite:IsPublishedIn
+  schemaKey: Resource
+  url: https://authors.elsevier.com/a/1lxK83QW8SA4eC
+- identifier: Accompanying code
+  name: Accompanying code
+  relation: dcite:IsPartOf
+  schemaKey: Resource
+  url: https://github.com/focolab/2025-dunn-et-al-curr-biol
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.6.10
 url: https://dandiarchive.org/dandiset/001623/draft
 version: draft
+wasGeneratedBy: []
