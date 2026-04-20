@@ -4,7 +4,9 @@
     "HEDVersion": "8.3.0",
     "Description": "Data accompanying publication 2025 Dunn et al curr biol",
     "DatasetType": "raw",
-    "Authors": [],
+    "Authors": [
+        "Dunn, Raymond"
+    ],
     "License": "CC-BY-4.0",
     "GeneratedBy": [
         {
